@@ -1,4 +1,4 @@
-import { Root } from "src\contracts\root.ts";
+import { Root } from "../../contracts/root";
 import { DefaultProvider, sha256, bsv, toByteString } from "scrypt-ts";
 import { NeucronSigner } from "neucron-signer";
 import artifact from "../../../artifacts/root.json"
